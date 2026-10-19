@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Better Math for SCUSD Kids — Speak at the Board Meeting, Oct 22</title>
+<meta name="description" content="Santa Clara Unified is choosing a new math curriculum. Parents are asking for less screen time, real instruction, and a transparent process. Public comment: Thursday, Oct 22, ~7:50 PM.">
+<meta property="og:title" content="Better Math for SCUSD Kids — Speak up Oct 22">
+<meta property="og:description" content="We need 30 voices at public comment. Less screen time, more teaching, a transparent adoption process.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#fbfaf7; --ink:#1d2433; --muted:#566074; --card:#ffffff; --line:#e4e1d8;
+  --brand:#1f4fd8; --brand-ink:#ffffff; --alert:#c2410c; --alert-bg:#fff4ec; --ok:#0f766e;
+  --radius:14px;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#10141c; --ink:#eef1f7; --muted:#a2adc2; --card:#181e2a; --line:#2a3345;
+    --brand:#6e93ff; --brand-ink:#0b1020; --alert:#ffa56b; --alert-bg:#2a1c12; --ok:#4fd1c5;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--brand)}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:10px 20px}
+header.top strong{font-size:15px}
+nav a{margin-left:14px;font-size:14px;text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--brand)}
+@media(max-width:640px){nav{display:none}}
+.hero{padding:48px 0 28px}
+.eyebrow{display:inline-block;background:var(--alert-bg);color:var(--alert);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:99px}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:16px 0 14px;letter-spacing:-.02em}
+.lede{font-size:19px;color:var(--muted);max-width:680px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid var(--brand);background:var(--brand);color:var(--brand-ink);cursor:pointer;font-size:16px;font-family:inherit}
+.btn.ghost{background:transparent;color:var(--brand)}
+.event{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:8px}
+.event div{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.event small{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.07em}
+.event b{font-size:18px}
+#count{margin-top:14px;font-weight:600;color:var(--alert)}
+.progress{margin-top:16px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.bar{height:10px;border-radius:9px;background:var(--line);overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;width:0;background:var(--ok)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(24px,4vw,32px);line-height:1.2;margin:0 0 8px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 20px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15.5px}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:6px;margin-bottom:8px;background:var(--line);color:var(--muted)}
+.tag.res{background:#dff5f1;color:#0b5f58}
+.tag.par{background:var(--alert-bg);color:var(--alert)}
+@media (prefers-color-scheme:dark){.tag.res{background:#12312e;color:#7fe3d9}}
+ol.steps{padding-left:0;list-style:none;counter-reset:s;display:grid;gap:12px}
+ol.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px 14px 56px;position:relative}
+ol.steps li::before{content:counter(s);position:absolute;left:14px;top:12px;width:30px;height:30px;border-radius:50%;background:var(--brand);color:var(--brand-ink);font-weight:800;display:grid;place-items:center}
+.asks li{margin-bottom:10px}
+blockquote{margin:0;background:var(--card);border-left:5px solid var(--brand);padding:16px 20px;border-radius:0 var(--radius) var(--radius) 0;color:var(--ink)}
+blockquote p{margin:0 0 10px}
+.copybox{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:16px 18px;white-space:pre-wrap;font-size:15px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.note{background:var(--alert-bg);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;font-size:15px;color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:15px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.src li{margin-bottom:8px;font-size:15px}
+footer{padding:30px 0 60px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media print{
+  header.top,.btns,#count,.progress,nav,#copybtn{display:none}
+  body{background:#fff;color:#000;font-size:13px}
+  section{padding:14px 0;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <strong>Better Math for SCUSD Kids</strong>
+    <nav aria-label="Sections">
+      <a href="#why">Why</a><a href="#problems">Concerns</a><a href="#asks">Our asks</a><a href="#speak">Speak</a><a href="#evidence">Evidence</a><a href="#share">Share</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+<div class="hero">
+  <span class="eyebrow">Parents: we need your voice</span>
+  <h1>Our kids deserve a math curriculum built on teaching, not screens.</h1>
+  <p class="lede">Santa Clara Unified is choosing a new math curriculum. Parents across the district are asking the Board for less screen time, real teacher-led instruction, and a transparent, evidence-based decision. Public comment is how the Board hears us. <strong>We need 30 people to speak.</strong></p>
+
+  <div class="event" role="list">
+    <div role="listitem"><small>Board meeting</small><b>Thursday, Oct 22</b></div>
+    <div role="listitem"><small>Public comment</small><b>≈ 7:50 PM</b></div>
+    <div role="listitem"><small>Arrive &amp; sign up</small><b>By 7:30 PM</b></div>
+    <div role="listitem"><small>Where</small><b>1889 Lawrence Rd., Santa Clara, CA 95051</b></div>
+  </div>
+  <div id="count" aria-live="polite"></div>
+
+  <div class="btns">
+    <a class="btn" href="https://docs.google.com/spreadsheets/d/12DgmBV551VU8gK9hJcaZWK_5FJiBRL4HqkremgMyWts/edit?gid=0#gid=0" target="_blank" rel="noopener">Sign up to speak</a>
+    <a class="btn ghost" href="https://docs.google.com/document/d/1-3n_QgcIHHV3YQvEKJ1HTNu0PYVZqfDc2XhO3bCQ7ww/edit?usp=drivesdk" target="_blank" rel="noopener">Read the talking points</a>
+    <a class="btn ghost" href="#share">Share with your school</a>
+  </div>
+
+  <div class="progress">
+    <strong>How you can help — most to least effective</strong>
+    <ol style="margin:8px 0 0;padding-left:20px">
+      <li><strong>Speak in person</strong> — the most effective option</li>
+      <li><strong>Call in by phone</strong></li>
+      <li><strong>Share</strong> this page with your school's parent chat</li>
+    </ol>
+  </div>
+</div>
+
+<section id="why">
+  <h2>What's happening</h2>
+  <p class="sub">The district is evaluating two programs for a new math adoption.</p>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">Option 1</span>
+      <h3>Carnegie Learning</h3>
+      <p>The piloted program. Parents report a workbook (no textbook) paired with software (MATHia) in middle school, and a story-based component with screen time in elementary. Parents cite the vendor's own material describing roughly 40% of time on screens.</p>
+    </div>
+    <div class="card">
+      <span class="tag">Option 2</span>
+      <h3>Amplify Desmos Math</h3>
+      <p>The other finalist. It is built around digital activities and a task-based, discovery-style approach. Parents report it also leans heavily on screens and game-like features, and some students have already moved over from the first program mid-pilot.</p>
+    </div>
+    <div class="card">
+      <span class="tag par">The core problem</span>
+      <h3>Both lean on devices</h3>
+      <p>Neither option has been shown to us as a teacher-led, print-first program with a firm limit on screen time. That is the choice we're asking the Board to consider before it votes.</p>
+    </div>
+  </div>
+</section>
+
+<section id="problems">
+  <h2>Problems we see in the curriculum</h2>
+  <p class="sub">Each concern is labeled by where it comes from: <span class="tag par">Parent report</span> from families with kids in the pilot, or <span class="tag res">Research</span> from published studies.</p>
+
+  <div class="grid">
+    <div class="card">
+      <span class="tag par">Parent report</span>
+      <h3>Heavy screen time</h3>
+      <p>Parents with children in the pilot describe math time that depends on devices, and cite the vendor's own materials for a figure near 40% in the Carnegie program.</p>
+    </div>
+    <div class="card">
+      <span class="tag par">Parent report</span>
+      <h3>No textbook</h3>
+      <p>The pilot uses a consumable workbook only. Families cannot look back at worked examples, explanations, or the sequence of ideas the way a textbook allows.</p>
+    </div>
+    <div class="card">
+      <span class="tag par">Parent report</span>
+      <h3>Rushing and distraction</h3>
+      <p>On devices, children hurry to submit answers instead of working through the steps, and devices invite off-task behavior.</p>
+    </div>
+    <div class="card">
+      <span class="tag par">Parent report</span>
+      <h3>Gamification</h3>
+      <p>Game-like rewards and activities can make practice feel engaging while hiding whether a child actually understands the math.</p>
+    </div>
+    <div class="card">
+      <span class="tag res">Research</span>
+      <h3>Heavy school computer use hasn't raised scores</h3>
+      <p>The OECD's 2015 report <em>Students, Computers and Learning</em> (PISA data) found that countries investing heavily in school technology saw no noticeable gains in reading, math or science, and that students who used computers very frequently at school tended to do worse.</p>
+    </div>
+    <div class="card">
+      <span class="tag res">Research</span>
+      <h3>Distraction costs points</h3>
+      <p>PISA 2022 found that students who report being distracted by digital devices in math lessons score meaningfully lower than those who don't.</p>
+    </div>
+    <div class="card">
+      <span class="tag res">Research</span>
+      <h3>Novices need direct instruction</h3>
+      <p>Cognitive-load research (Kirschner, Sweller &amp; Clark, 2006) and the U.S. National Mathematics Advisory Panel (2008) support explicit teaching, worked examples, and building fluency with core skills such as fractions, rather than leaving children to discover methods on their own.</p>
+    </div>
+    <div class="card">
+      <span class="tag res">Research</span>
+      <h3>Results aren't instant or guaranteed</h3>
+      <p>The largest independent study of Carnegie Learning's software-based Algebra I (RAND, Pane et al., 2014) found benefits in the second year of use, not the first. Evidence for the middle-grade and elementary programs is thinner than for that high school course.</p>
+    </div>
+    <div class="card">
+      <span class="tag res">Research</span>
+      <h3>Other systems are pulling back</h3>
+      <p>Sweden began shifting funding back to printed textbooks in 2023 after concern about declining reading and learning outcomes and too much screen use in classrooms.</p>
+    </div>
+  </div>
+
+  <p style="margin-top:18px" class="note"><strong>What this does not say:</strong> technology has no place in math class. Short, targeted practice can help. Our concern is a curriculum <em>built around</em> screens, adopted without a clear cap, evidence, or print option.</p>
+</section>
+
+<section id="asks">
+  <h2>What we're asking the Board to do</h2>
+  <p class="sub">Clear, reasonable requests that anyone can make in two minutes.</p>
+  <ol class="asks">
+    <li><strong>Slow down the vote.</strong> Do not finalize an adoption until families have seen the pilot results.</li>
+    <li><strong>Publish the pilot data.</strong> Student outcomes, teacher feedback and parent feedback, shared with the public before the decision.</li>
+    <li><strong>Set a written screen-time limit</strong> for math, with a print-first standard and a full student textbook (not only a workbook).</li>
+    <li><strong>Require independent evidence.</strong> Use third-party reviews (such as EdReports) and published effectiveness studies as criteria, not vendor claims.</li>
+    <li><strong>Put parents and math teachers on the adoption committee</strong> with a real voice in the recommendation.</li>
+    <li><strong>Prioritize teacher-led instruction and fluency</strong> — worked examples, handwritten practice, and clear explanations of how to break a problem into smaller steps.</li>
+    <li><strong>Be transparent</strong> about total cost, device requirements, and what student data the vendors collect.</li>
+  </ol>
+</section>
+
+<section id="speak">
+  <h2>How to speak at public comment</h2>
+  <p class="sub">You do not need to be an expert. A short, personal story is the most powerful thing the Board can hear.</p>
+  <ol class="steps">
+    <li><strong>Sign up</strong> using the link above, then arrive by <strong>7:30 PM</strong> on Oct 22 to check in and coordinate.</li>
+    <li><strong>Keep it to about two minutes</strong> (confirm the time limit when you sign in). Say your name, your school, and your child's grade.</li>
+    <li><strong>Tell your story:</strong> what you've seen in your child's math homework, workbook or screen time.</li>
+    <li><strong>Make one clear ask</strong> from the list above, and thank the Board for their time.</li>
+    <li><strong>Can't attend?</strong> Call in by phone, or forward this page to someone who can.</li>
+  </ol>
+
+  <h3 style="margin-top:26px">A sample 2-minute statement</h3>
+  <blockquote>
+    <p>Good evening. My name is ____, and I have a child in grade __ at ____.</p>
+    <p>I'm here because I care deeply about how our children learn math. I've looked at what the pilot looks like at home: a workbook with no textbook, a lot of time on a device, and children rushing to submit answers instead of understanding the steps.</p>
+    <p>Research on schools that invested heavily in classroom technology has not shown gains in math, and distraction from devices is linked to lower scores. Children learn math when a teacher explains it, when they write out their thinking, and when they practice until it's fluent.</p>
+    <p>I'm asking the Board to publish the pilot results, set a clear limit on screen time, require a printed textbook, and include parents in the decision before any vote. Thank you.</p>
+  </blockquote>
+</section>
+
+<section id="evidence">
+  <h2>Evidence at a glance</h2>
+  <p class="sub">Before you quote anything at the microphone, check it against the original source. Links are listed below.</p>
+  <table>
+    <thead><tr><th>Source</th><th>What it says</th></tr></thead>
+    <tbody>
+      <tr><td>OECD, <em>Students, Computers and Learning</em> (2015)</td><td>Heavy investment in school ICT showed no appreciable improvement in reading, math or science; very frequent computer use at school was linked to worse results; moderate use did better than none or very heavy use.</td></tr>
+      <tr><td>OECD PISA 2022 Results</td><td>Digital-device distraction in math lessons is associated with lower math scores.</td></tr>
+      <tr><td>National Mathematics Advisory Panel (2008)</td><td>Emphasizes fluency with whole numbers and fractions as a foundation for algebra, and a balance of teacher-directed and student-centered approaches.</td></tr>
+      <tr><td>Kirschner, Sweller &amp; Clark (2006)</td><td>Minimally guided instruction is less effective for novices than explicit guidance.</td></tr>
+      <tr><td>Pane et al., RAND (2014)</td><td>Carnegie Learning Cognitive Tutor Algebra I: no first-year effect in high school, positive effect in the second year.</td></tr>
+      <tr><td>Swedish government (2023)</td><td>Policy shift toward printed textbooks and reduced classroom screen use.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top:24px">Sources to read</h3>
+  <ul class="src">
+    <li>OECD — <a href="https://www.oecd.org/en/publications/students-computers-and-learning_9789264239555-en.html" target="_blank" rel="noopener">Students, Computers and Learning: Making the Connection</a></li>
+    <li>OECD — <a href="https://www.oecd.org/en/about/programmes/pisa.html" target="_blank" rel="noopener">PISA programme and 2022 results</a></li>
+    <li>U.S. Dept. of Education — <a href="https://www2.ed.gov/about/bdscomm/list/mathpanel/report/final-report.pdf" target="_blank" rel="noopener">Foundations for Success: National Mathematics Advisory Panel Final Report</a></li>
+    <li>Kirschner, Sweller &amp; Clark — <a href="https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1" target="_blank" rel="noopener">Why Minimal Guidance During Instruction Does Not Work</a></li>
+    <li>RAND — <a href="https://www.rand.org/pubs/external_publications/EP50862.html" target="_blank" rel="noopener">Effectiveness of Cognitive Tutor Algebra I at Scale</a></li>
+    <li>EdReports — <a href="https://www.edreports.org/" target="_blank" rel="noopener">Independent reviews of K-12 instructional materials</a></li>
+  </ul>
+
+  <div class="note" style="margin-top:20px">
+    <strong>A note on accuracy.</strong> The pilot details (screen-time share, workbook-only, gamification) come from parent reports and the vendor's marketing, not a district document. Ask the district to confirm the exact figures, and cite them as "what parents have observed" until it does. This page was assembled without live access to the web, so please verify the study details and links above.
+  </div>
+</section>
+
+<section id="share">
+  <h2>Share the message</h2>
+  <p class="sub">Copy this into your school's parent chat. Not everyone will see it the first time — please do not rely on others to do this.</p>
+  <div class="copybox" id="msg">🚨 PARENTS: WE NEED YOUR HELP! 🚨
+📣 SCUSD is choosing a new math curriculum. Please speak up during public comment!
+
+📅 Board Meeting: Thursday, Oct 22
+🕗 Public Comment: approx. 7:50 PM
+📍 1889 Lawrence Rd., Santa Clara, CA 95051
+⏰ Arrive by 7:30 PM to sign up and organize
+
+Ways to help (most to least effective): speak in person, call in by phone.
+We need 30 voices. The more the Board hears, the harder it is to ignore.
+
+Sign up: https://docs.google.com/spreadsheets/d/12DgmBV551VU8gK9hJcaZWK_5FJiBRL4HqkremgMyWts/edit?gid=0#gid=0
+Talking points: https://docs.google.com/document/d/1-3n_QgcIHHV3YQvEKJ1HTNu0PYVZqfDc2XhO3bCQ7ww/edit?usp=drivesdk</div>
+  <div class="btns">
+    <button class="btn" id="copybtn" type="button">Copy message</button>
+    <button class="btn ghost" type="button" onclick="window.print()">Print as flyer</button>
+  </div>
+</section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    A parent-organized effort. Not an official district publication. Share freely.
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Meeting: Thursday Oct 22, 2026, public comment ~7:50 PM Pacific (PDT, UTC-7)
+  var target = new Date("2026-10-22T19:50:00-07:00").getTime();
+  var el = document.getElementById("count");
+  function tick(){
+    var ms = target - Date.now();
+    if (ms <= 0){ el.textContent = "Public comment is happening now or has passed."; return; }
+    var d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5), m = Math.floor(ms%36e5/6e4);
+    el.textContent = "Public comment starts in " + d + " day" + (d===1?"":"s") + ", " + h + " hr, " + m + " min";
+  }
+  tick(); setInterval(tick, 30000);
+
+  var btn = document.getElementById("copybtn");
+  btn.addEventListener("click", function(){
+    var text = document.getElementById("msg").innerText;
+    var done = function(){ btn.textContent = "Copied!"; setTimeout(function(){ btn.textContent = "Copy message"; }, 2000); };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+    function fallback(){
+      var r = document.createRange(); r.selectNodeContents(document.getElementById("msg"));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      try { document.execCommand("copy"); done(); } catch(e) {}
+    }
+  });
+})();
+</script>
+</body>
+</html>
